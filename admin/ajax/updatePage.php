@@ -35,7 +35,7 @@ if($row){
                         ."#shopName#"
                         ."</span>"
                         ."<span class='switch-address'>"
-                        ."<a class='switch-address' href='/place.html'>[切换地址]</a>"
+                        ."<a class='switch-address' href='/index.php'>[切换地址]</a>"
                         ."</span>";
       
         

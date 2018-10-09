@@ -10,7 +10,7 @@
 function checkIfLogin(){
     var userId=$.cookie('userId');
     if(!userId){ 
-        location.href="/place.html";//跳到首页
+        location.href="/index.php";//跳到首页
     }
 }
 
