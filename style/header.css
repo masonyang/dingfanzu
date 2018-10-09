@@ -145,7 +145,7 @@ a:hover{
 }
 
 
-//-----下面设置placeholder的颜色------
+/*-----下面设置placeholder的颜色------*/
 .header-left input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     color: #fa9fa6;  
 }

@@ -19,7 +19,7 @@ if($verify==$verify1){
 		}else{//7天
 			setcookie("adminId",$row['id'],time()+7*24*3600);
 			setcookie("adminName",$row['username'],time()+7*24*3600);
-			setcookie("shopId",$row['shopId'],time()w+7*24*3600);
+			setcookie("shopId",$row['shopId'],time()+7*24*3600);
 		}
 		$_SESSION['adminName']=$row['username'];
 		$_SESSION['adminId']=$row['id'];
