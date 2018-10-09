@@ -8,10 +8,7 @@
 <body width="100%">
 <center>
 
-	<br>
-	<br>
-	<h3>本站已开源，源码地址：<a href="https://github.com/chanson1024/dingfanzu">https://github.com/chanson1024/dingfanzu</a>
-	</h3>
+
 	<br>
 	<br>
 	<h3>系统信息</h3>

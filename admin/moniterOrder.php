@@ -20,7 +20,10 @@ if($page<1||$page==null||!is_numeric($page))$page=1;
 if($page>$totalPage)$page=$totalPage; 
 $offset=($page-1)*$pageSize;
 $sql="select * from dfz_order {$where} {$orderBy} limit 1";
-$rows=fetchAll($sql); 
+$rows=fetchAll($sql);
+if(!$rows){
+    $rows = array();
+}
 ?>
 
 <!doctype html>

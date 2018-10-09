@@ -97,7 +97,7 @@ a:hover{
     margin-top:15px;
     margin-left: 25px; 
     cursor:pointer;
-    background: url(../images/header_logo.png)  no-repeat;
+    /*background: url(../images/header_logo.png)  no-repeat;*/
 }
 
 .header-left .search{

@@ -14,6 +14,6 @@ if($_SESSION['send_count']>4){
 $arr=$_POST;
 $phone=$_POST['phone'];
 
-$code=rand(1000,9999);
-
+//$code=rand(1000,9999);
+$code = '123456';
 echo sendCode($phone,$code);

@@ -137,7 +137,7 @@ checkLogined();
             </div>
         </div>
     </div>
-    <audio id="player"> 
+    <audio id="w">
         <source src="raw/bg_voice.mp3"> 
     </audio> 
 

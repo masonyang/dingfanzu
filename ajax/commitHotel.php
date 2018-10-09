@@ -2,7 +2,12 @@
 require_once '../include.php'; 
 
 //验证是否登录后
-$ss=$_SESSION['userId']; 
+
+if(!$_SESSION['userId']){
+    $_SESSION['userId']=$_COOKIE['userId'];
+}
+
+$ss=$_SESSION['userId'];
 if(!isset($ss)){
     $obj = new stdClass();
     $obj->code="1"; 

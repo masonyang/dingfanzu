@@ -50,7 +50,7 @@ if(!empty($_COOKIE['adminId'])&&$_COOKIE['adminId']!=""){
 
 <div class="footer">
 	
-	<p>Copyright &copy; 2015 - 2017 dingfanzu.com&nbsp;&nbsp;&nbsp;</p>
+<!--	<p>Copyright &copy; 2015 - 2017 dingfanzu.com&nbsp;&nbsp;&nbsp;</p>-->
 	
 </div>
 </body>

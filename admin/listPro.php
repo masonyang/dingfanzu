@@ -80,7 +80,9 @@ if(!$rows){
                             </tr>
                         </thead>
                         <tbody>
-                        <?php foreach($rows as $row):?>
+                        <?php
+                        if($rows):
+                        foreach($rows as $row):?>
                             <tr align="center">
                                 <!--这里的id和for里面的c1 需要循环出来-->
                                 <td><?php echo $row['pSn'];?></td>
@@ -96,7 +98,7 @@ if(!$rows){
                                 
                                 </td>
                             </tr>
-                           <?php  endforeach;?>
+                           <?php  endforeach;endif;?>
                         </tbody>
                     </table> 
                     <?php 

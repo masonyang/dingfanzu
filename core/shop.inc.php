@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * 添加店铺
  * @return string

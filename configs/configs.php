@@ -1,12 +1,13 @@
 <?php 
 define("DB_HOST","localhost");
 define("DB_USER","root");
-define("DB_PWD","");
-define("DB_DBNAME","dfz");
+define("DB_PWD","masonYang@123");
+define("DB_DBNAME","df");
 define("DB_CHARSET","utf8");
+define("HOST_NAME","");
 
-define("DEBUG",true);
+define("DEBUG",false);
 
-define("IMG_50","http://".DB_HOST."/image_50/");
+define("IMG_50","http://".HOST_NAME."/image_50/");
 
-define("IMG_SHOP","http://".DB_HOST."/image_shop/");
+define("IMG_SHOP","http://".HOST_NAME."/image_shop/");

@@ -38,7 +38,7 @@ if(!$rows){
         <td align="right"><span class="td-txt">所属店铺</span></td>
         <td>
         <select id="shop" name="shopId" class="">
-        <option value="?" selected='selected'>?</option>
+            <option value="0" selected='selected'>--请选择--</option>
             <?php foreach($shops as $shop):?>
                 <option value="<?php echo $shop['shopId'];?>"><?php echo $shop['shopName'];?></option>
             <?php endforeach;?>
@@ -49,7 +49,7 @@ if(!$rows){
 		<td align="right"><span class="td-txt">商品分类</span></td>
 		<td>
 		<select id="cate" name="pCateId" class="">
-            <option value="?" selected='selected'>?</option>
+            <option value="0" selected='selected'>--请选择--</option>
 			<?php foreach($rows as $row):?>
 				<option value="<?php echo $row['id'];?>"><?php echo $row['cName'];?></option>
 			<?php endforeach;?>
