@@ -7,7 +7,7 @@ checkLogined();
 <html>
 <head>
 <meta charset="utf-8">
-<title>订饭组外卖订餐后台管理系统</title> 
+<title>外卖订餐平台</title>
 <link rel=stylesheet href="styles/reset.css">
 <link rel=stylesheet href="styles/bootstrap-admin.css"> 
 <link rel="stylesheet" href="styles/backstage.css">     
